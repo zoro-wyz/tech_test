@@ -1,10 +1,11 @@
 import psycopg2
 
+# 连接信息具有私密性，具体信息在笔试题中
 db_params = {
-    'dbname': 'technical_test',  
-    'user': 'candidate',         
-    'password': 'NW337AkNQH76veGc',     
-    'host': 'technical-test-1.cncti7m4kr9f.ap-south-1.rds.amazonaws.com',            
+    'dbname': '',  
+    'user': '',         
+    'password': '',     
+    'host': '',            
     'port': '5432'                   
 }
 
